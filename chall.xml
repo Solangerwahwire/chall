@@ -29,6 +29,9 @@
                                     <field name="NUM">4998</field>
                                   </block>
                                 </value>
+                                <next>
+                                  <block type="movement_stop" id="485"></block>
+                                </next>
                               </block>
                             </next>
                           </block>
