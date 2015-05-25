@@ -1,56 +1,13 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="43" inline="false" x="174" y="106">
-    <field name="MODE">WHILE</field>
-    <statement name="DO">
-      <block type="robot_delay" id="45" inline="true">
+  <block type="movement_forward" id="158" x="182" y="130">
+    <next>
+      <block type="robot_delay" id="160" inline="true">
         <value name="DELAY">
-          <block type="math_number" id="52">
-            <field name="NUM">45</field>
+          <block type="math_number" id="167">
+            <field name="NUM">22</field>
           </block>
         </value>
-        <next>
-          <block type="movement_forward" id="62">
-            <next>
-              <block type="robot_delay" id="65" inline="true">
-                <value name="DELAY">
-                  <block type="math_number" id="66">
-                    <field name="NUM">43</field>
-                  </block>
-                </value>
-                <next>
-                  <block type="movement_right" id="76">
-                    <next>
-                      <block type="robot_delay" id="77" inline="true">
-                        <value name="DELAY">
-                          <block type="math_number" id="78">
-                            <field name="NUM">41</field>
-                          </block>
-                        </value>
-                        <next>
-                          <block type="movement_reverse" id="88">
-                            <next>
-                              <block type="robot_delay" id="147" inline="true">
-                                <value name="DELAY">
-                                  <block type="math_number" id="148">
-                                    <field name="NUM">39</field>
-                                  </block>
-                                </value>
-                              </block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
       </block>
-    </statement>
-    <next>
-      <block type="movement_stop" id="100"></block>
     </next>
   </block>
 </xml>
