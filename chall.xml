@@ -1,4 +1,7 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_whileUntil" id="377" inline="false" x="-2" y="5">
+    <field name="MODE">WHILE</field>
+  </block>
   <block type="movement_forward" id="158" x="227" y="135">
     <next>
       <block type="robot_delay" id="160" inline="true">
