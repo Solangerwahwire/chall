@@ -7,22 +7,6 @@
             <field name="NUM">20</field>
           </block>
         </value>
-        <next>
-          <block type="movement_right" id="229">
-            <next>
-              <block type="robot_delay" id="231" inline="true">
-                <value name="DELAY">
-                  <block type="math_number" id="238">
-                    <field name="NUM">200</field>
-                  </block>
-                </value>
-                <next>
-                  <block type="movement_stop" id="248"></block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
       </block>
     </next>
   </block>
