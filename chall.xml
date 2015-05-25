@@ -7,10 +7,8 @@
             <field name="NUM">20</field>
           </block>
         </value>
-        <next>
-          <block type="movement_stop" id="259"></block>
-        </next>
       </block>
     </next>
   </block>
+  <block type="movement_stop" id="259" x="382" y="264"></block>
 </xml>
