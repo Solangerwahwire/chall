@@ -8,14 +8,17 @@
           </block>
         </value>
         <next>
-          <block type="movement_right" id="193">
+          <block type="movement_right" id="229">
             <next>
-              <block type="robot_delay" id="211" inline="true">
+              <block type="robot_delay" id="231" inline="true">
                 <value name="DELAY">
-                  <block type="math_number" id="218">
-                    <field name="NUM">18</field>
+                  <block type="math_number" id="238">
+                    <field name="NUM">2</field>
                   </block>
                 </value>
+                <next>
+                  <block type="movement_stop" id="248"></block>
+                </next>
               </block>
             </next>
           </block>
